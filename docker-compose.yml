@@ -7,15 +7,19 @@ services:
     ports:
       - ${WORDPRESS_PORT}:80
     environment:
-      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_HOST: mysql:3306
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
       WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'https://resivalex.com/');
+        define('WP_SITEURL', 'https://resivalex.com/');
+        define('FS_METHOD', 'direct');
     depends_on:
-      - db
+      - mysql
     volumes:
       - ${WORDPRESS_CONTENT_PATH}:/var/www/html/wp-content
-  db:
+  mysql:
     image: mysql:5.7
     restart: always
     environment:

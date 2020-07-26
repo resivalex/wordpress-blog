@@ -1,2 +1,4 @@
 .idea/
 .env
+docker-compose-local-nginx.yml
+dockers/

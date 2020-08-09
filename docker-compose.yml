@@ -15,10 +15,14 @@ services:
         define('WP_HOME', '${WORDPRESS_BASE_URL}');
         define('WP_SITEURL', '${WORDPRESS_BASE_URL}');
         define('FS_METHOD', 'direct');
+        define('FORCE_SSL_ADMIN', 0);
+        define('FORCE_SSL_LOGIN', 0);
     depends_on:
       - mysql
     volumes:
       - ${WORDPRESS_CONTENT_PATH}:/var/www/html/wp-content
+      - ./static:/var/www/html/wp-content/uploads/static
+      - ./src:/var/www/html/src
   mysql:
     image: mysql:5.7
     restart: always

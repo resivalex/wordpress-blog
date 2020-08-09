@@ -1,31 +1,5 @@
 <?php
-  function output_tags($tags) {
-    foreach ($tags as $tag)
-    {
-      echo '<div class="tag">'.$tag.'</div>';
-    }
-  }
-
-  function output_place($params)
-  {
-    if (isset($params['duration']) || isset($params['period']))
-    {
-      echo '<div>
-			<span class="glyphicon glyphicon-time"></span>
-			'.$params['duration'].'<br>
-			'.$params['period'].'
-		</div>';
-    }
-    if (isset($params['name']) || isset($params['link']) || isset($params['description']))
-    {
-      echo '<div>
-			<span class="glyphicon glyphicon-map-marker"></span>
-			'.$params['name'].'<br>
-			'.$params['link'].'<br>
-			'.$params['description'].'
-		</div>';
-    }
-  }
+  require_once 'functions.php';
 ?>
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +25,7 @@
 
 <div class="sub-header">Задачи</div>
 <p>
-	— Выбор направления и инструментов для разрития технической части проекта, предложение/обсуждение вариантов реализации, ревью кода<br>
+	— Выбор направлени и инструментов для разрития технической части проекта, предложение/обсуждение вариантов реализации, ревью кода<br>
 	— Создание инструментов для анализа и управления рекламой<br>
 	— Синхронизация статистики, статусов модерации<br>
 	— Реализация новых форматов. Обработка ошибок<br>
@@ -68,7 +42,6 @@
 	— Приведение стилей в кабинете пользователя к аккуратному единообразному виду
 </p>
 
-Технологии
 <div class="sub-header">Технологии</div>
 <?php
   output_tags(['Ruby on Rails 5', 'PostgreSQL', 'RSpec', 'Cucumber', 'Capybara', 'Jenkins', 'Docker', 'Capistrano',

@@ -1,3 +1,9 @@
+.main-header {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 30px 0 20px;
+}
+
 .header {
   font-size: 24px;
   font-weight: bold;
@@ -6,7 +12,7 @@
 
 .sub-header {
   font-weight: bold;
-  padding: 16px 0 4px;
+  padding: 18px 0 4px;
 }
 
 .tags {
@@ -19,7 +25,7 @@
 
 .tag {
   display: inline-block;
-  font-size: 10px;
+  font-size: 14px;
   border-width: 1px;
   border-style: solid;
   border-color: black;
@@ -31,6 +37,6 @@
 
 .container {
   max-width: 980px;
-  margin: 0 auto;
-  font-size: 18px;
+  margin: 0 auto 50px;
+  font-size: 16px;
 }

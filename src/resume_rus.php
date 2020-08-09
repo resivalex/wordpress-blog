@@ -10,7 +10,7 @@
 		[<a href="/resume-english">EN</a>]
 	</div>
 	
-	<div class="header">Обо мне</div>
+	<div class="main-header">Решетников Иван Александрович</div>
 	
 	<p>
 		Люблю писать красивый и понятный код. Интересуюсь новыми технологиями.<br>

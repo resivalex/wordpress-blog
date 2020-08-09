@@ -10,7 +10,7 @@
 		[<a href="/resume-russian">RUS</a>]
 	</div>
 	
-	<div class="header">About me</div>
+	<div class="main-header">Reshetnikov Ivan Aleksandrovich</div>
 	
 	<p>
 		I like writing beautiful and clear code, am interested in new technologies

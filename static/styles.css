@@ -28,3 +28,9 @@
   border-radius: 20px;
   margin: 2px;
 }
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  font-size: 18px;
+}

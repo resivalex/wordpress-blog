@@ -21,8 +21,8 @@
       echo '<div>
 			<span class="glyphicon glyphicon-map-marker"></span>
 			'.$params['name'].'<br>
-			'.$params['link'].'<br>
-			'.$params['description'].'
-		</div>';
+			'.(isset($params['link']) ? '<a href="'.$params['link'].'">'.$params['link'].'</a><br>' : '')
+        .$params['description'].
+        '</div>';
     }
   }

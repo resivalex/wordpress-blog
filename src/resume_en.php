@@ -13,9 +13,9 @@
 	<div class="main-header">Reshetnikov Ivan Aleksandrovich</div>
 	
 	<p>
-		I like writing beautiful and clear code, am interested in new technologies
-		I have a good idea of the effectiveness and use of algorithms
-		GitHub profile <a href="https://github.com/resivalex">https://github.com/resivalex</a>
+		I like writing beautiful and clear code, am interested in new technologies<br>
+		I have a good idea of the effectiveness and use of algorithms<br>
+		GitHub profile <a class="black-link" href="https://github.com/resivalex">https://github.com/resivalex</a>
 	</p>
 	
 	<div class="header">Lead Ruby on Rails developer</div>

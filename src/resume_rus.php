@@ -15,7 +15,7 @@
 	<p>
 		Люблю писать красивый и понятный код. Интересуюсь новыми технологиями.<br>
 		Имею хорошее представление об эффективности алгоритмов.<br>
-		GitHub профиль <a href="https://github.com/resivalex">https://github.com/resivalex</a>
+		GitHub профиль <?= black_link('https://github.com/resivalex</a>') ?>
 	</p>
 	
 	<div class="header">Ведущий Ruby on Rails разработчик</div>

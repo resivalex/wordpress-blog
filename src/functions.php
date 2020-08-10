@@ -19,10 +19,15 @@
     if (isset($params['name']) || isset($params['link']) || isset($params['description']))
     {
       echo '<div>
-			<span class="glyphicon glyphicon-map-marker"></span>
-			'.$params['name'].'<br>
-			'.(isset($params['link']) ? '<a href="'.$params['link'].'">'.$params['link'].'</a><br>' : '')
-        .$params['description'].
-        '</div>';
+        <span class="glyphicon glyphicon-map-marker"></span>'
+        .$params['name'].'<br>'
+        .(isset($params['link']) ? black_link($params['link']).'<br>' : '')
+        .$params['description']
+        .'</div>';
     }
+  }
+
+  function black_link($url)
+  {
+    return '<a target="_blank" class="black-link" href="'.$url.'">'.$url.'</a>';
   }

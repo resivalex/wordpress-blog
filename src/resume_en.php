@@ -15,7 +15,7 @@
 	<p>
 		I like writing beautiful and clear code, am interested in new technologies<br>
 		I have a good idea of the effectiveness and use of algorithms<br>
-		GitHub profile <a class="black-link" href="https://github.com/resivalex">https://github.com/resivalex</a>
+		GitHub profile <?= black_link('https://github.com/resivalex') ?>
 	</p>
 	
 	<div class="header">Lead Ruby on Rails developer</div>
@@ -65,8 +65,8 @@
 	
 	<div class="sub-header">Tasks</div>
 	<p>
-		— Real estate project support and development http://o-din.ru/<br>
-		— Beauty specialists qualification project support and development http://e-academie.ru/
+		— Real estate project support and development <?= black_link('http://o-din.ru/') ?><br>
+		— Beauty specialists qualification project support and development <?= black_link('http://e-academie.ru/') ?>
 	</p>
 	<div class="sub-header">Technologies</div>
 	<?php
@@ -82,8 +82,8 @@
 	
 	<div class="sub-header">Tasks</div>
 	<p>
-		— Graduation work rewriting https://github.com/resivalex/student-progress-on-rails<br>
-		— Trampoline center website development https://github.com/resivalex/zaskok
+		— Graduation work rewriting <?= black_link('https://github.com/resivalex/student-progress-on-rails') ?><br>
+		— Trampoline center website development <?= black_link('https://github.com/resivalex/zaskok') ?>
 	</p>
 	<div class="sub-header">Technologies</div>
 	<?php
@@ -102,7 +102,7 @@
 	
 	<div class="sub-header">Tasks</div>
 	<p>
-		— Website development http://pskovskie.ru/ from scratch<br>
+		— Website development <?= black_link('http://pskovskie.ru/ from scratch') ?><br>
 		— Development of a multi-component network application in a team of five members using the Scrum methodology<br>
 		— Full implementation of an important component interacting with the exchange<br>
 		— Unit-testing with Catch framework<br>

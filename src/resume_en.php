@@ -1,5 +1,6 @@
 <?php
   require_once 'functions.php';
+  require_once 'tags.php';
 ?>
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -49,9 +50,7 @@
 	
 	<div class="sub-header">Technologies</div>
 	<?php
-		output_tags(['Ruby on Rails 5', 'PostgreSQL', 'RSpec', 'Cucumber', 'Capybara', 'Jenkins', 'Docker', 'Capistrano',
-			'Trailblazer', 'React.js', 'ES6', 'Redux', 'Flow', 'SASS', 'BEM', 'Webpack', 'yarn', 'styled-components',
-			'delayed_job', 'VK API', 'myTarget API', 'Facebook API', 'AdWords API', 'Metrica API', 'Backup']);
+		output_tags(oneretarget_tags());
 	?>
 	
 	<div class="header">Ruby on Rails developer</div>
@@ -70,7 +69,7 @@
 	</p>
 	<div class="sub-header">Technologies</div>
 	<?php
-		output_tags(['Ruby on Rails 4', 'RSpec', 'Linux', 'Capistrano', 'Capybara', 'AngularJS', 'CoffeeScript', 'PostgreSQL']);
+		output_tags(lakehouse_tags());
 	?>
 	
 	<div class="header">Самообразование</div>
@@ -87,7 +86,7 @@
 	</p>
 	<div class="sub-header">Technologies</div>
 	<?php
-		output_tags(['Ruby on Rails', 'RSpec', 'Linux', 'Capistrano', 'CoffeeScript', 'AngularJS', 'PHP', 'HTML', 'CoffeeScript', 'SASS', 'MySQL', 'D3.js', 'SVG']);
+		output_tags(selfeducation_tags());
 	?>
 	
 	<div class="header">Software developer</div>
@@ -112,8 +111,7 @@
 	</p>
 	<div class="sub-header">Technologies</div>
 	<?php
-		output_tags(['Ruby on Rails 4', 'Ruby Slim', 'JavaScript', 'CSS', 'SASS', 'Bootstrap', 'AJAX', 'friendlyId', 'dragonfly',
-			'C++', 'Boost Thread', 'WebSocket', 'JSON', 'Stash', 'JIRA', 'Confluence', 'Git']);
+		output_tags(piratetrade_2_tags());
 	?>
 	
 	<div class="header">C++/Qt developer</div>
@@ -138,7 +136,7 @@
 	</p>
 	<div class="sub-header">Technologies</div>
 	<?php
-		output_tags(['C++', 'C++ Standard Library', 'Qt', 'JavaScript', 'jQuery', 'HTML', 'SVN']);
+		output_tags(piratetrade_tags());
 	?>
 	
 	<div class="header">Higher education</div>

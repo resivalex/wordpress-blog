@@ -34,20 +34,24 @@
     }
     if (isset($params['duration']) || isset($params['period']))
     {
-      echo '<div>
-			<span class="glyphicon glyphicon-time"></span>
-			'.$params['duration'].'<br>
-			'.$params['period'].'
-		</div>';
+      echo '<div class="row-with-icon">
+        <div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-time"></span></div>
+        <div class="row-with-icon__info">
+          <div>'.$params['duration'].'</div>
+          <div class="row-with-icon__comment">'.$params['period'].'</div>
+        </div>
+      </div>';
     }
     if (isset($params['name']) || isset($params['link']) || isset($params['description']))
     {
-      echo '<div>
-        <span class="glyphicon glyphicon-map-marker"></span>'
-        .$params['name'].'<br>'
-        .(isset($params['link']) ? black_link($params['link']).'<br>' : '')
-        .$params['description']
-        .'</div>';
+      echo '<div class="row-with-icon">
+        <div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-map-marker"></span></div>
+        <div class="row-with-icon__info">
+          <div>'.$params['name'].'</div>
+          <div>'.(isset($params['link']) ? black_link($params['link']) : '').'</div>
+          <div class="row-with-icon__comment">'.$params['description'].'</div>
+        </div>
+      </div>';
     }
   }
 

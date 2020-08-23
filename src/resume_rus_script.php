@@ -8,7 +8,7 @@
 
 <div class="container">
 	<div>
-		[<a href="/resume-english">EN</a>]
+		[<a href="/resume-english">Switch to English</a>]
 	</div>
 	
 	<div class="main-header">Решетников Иван Александрович</div>
@@ -139,26 +139,32 @@
 	?>
 	
 	<div class="header">Высшее образование</div>
-	
-	<div>
-		<span class="glyphicon glyphicon-send"></span>
-		Псковский государственный университет<br>
-		2008 - 2013<br>
-		Факультет информатики
+
+	<div class="row-with-icon">
+		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-send"></span></div>
+		<div class="row-with-icon__info">
+			<div>Псковский государственный университет</div>
+			<div>2008 - 2013</div>
+			<div>Факультет информатики</div>
+		</div>
 	</div>
 	
 	<div class="header">Знание языков</div>
-	
-	<div>
-		<span class="glyphicon glyphicon-send"></span>
-		Русский — Родной<br>
-		Английский — Upper Intermediate
+
+	<div class="row-with-icon">
+		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-send"></span></div>
+		<div class="row-with-icon__info">
+			<div>Русский — Родной</div>
+			<div>Английский — Upper Intermediate</div>
+		</div>
 	</div>
 	
 	<div class="header">Контакты</div>
-	
-	<div>
-		<span class="glyphicon glyphicon-envelope"></span>
-		resivalex@gmail.com
+
+	<div class="row-with-icon">
+		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-envelope"></span></div>
+		<div class="row-with-icon__info">
+			<div>resivalex@gmail.com</div>
+		</div>
 	</div>
 </div>

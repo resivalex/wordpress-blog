@@ -8,7 +8,7 @@
 
 <div class="container">
 	<div>
-		[<a href="/resume-russian">RUS</a>]
+		[<a href="/resume-russian">Переключить на русский</a>]
 	</div>
 	
 	<div class="main-header">Reshetnikov Ivan Aleksandrovich</div>
@@ -136,25 +136,31 @@
 	
 	<div class="header">Higher education</div>
 	
-	<div>
-		<span class="glyphicon glyphicon-send"></span>
-		Pskov State University<br>
-		2008 - 2013<br>
-		Faculty of Informatics
+	<div class="row-with-icon">
+		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-send"></span></div>
+		<div class="row-with-icon__info">
+			<div>Pskov State University</div>
+			<div>2008 - 2013</div>
+			<div>Faculty of Informatics</div>
+		</div>
 	</div>
 	
 	<div class="header">Languages</div>
-	
-	<div>
-		<span class="glyphicon glyphicon-send"></span>
-		Russian — Native<br>
-		English — Upper Intermediate
+
+	<div class="row-with-icon">
+		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-send"></span></div>
+		<div class="row-with-icon__info">
+			<div>Russian — Native</div>
+			<div>English — Upper Intermediate</div>
+		</div>
 	</div>
 	
 	<div class="header">Contacts</div>
-	
-	<div>
-		<span class="glyphicon glyphicon-envelope"></span>
-		resivalex@gmail.com
+
+	<div class="row-with-icon">
+		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-envelope"></span></div>
+		<div class="row-with-icon__info">
+			<div>resivalex@gmail.com</div>
+		</div>
 	</div>
 </div>

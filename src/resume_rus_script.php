@@ -6,20 +6,20 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 <link href="/wp-content/uploads/static/styles.css" rel="stylesheet">
 
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Person">
 	<div>
 		[<a href="/resume-english">Switch to English</a>]
 	</div>
 	
-	<div class="main-header">Решетников Иван Александрович</div>
+	<div class="main-header" itemprop="name">Решетников Иван Александрович</div>
 	
-	<p>
+	<p itemprop="description">
 		Люблю писать красивый и понятный код. Интересуюсь новыми технологиями.<br>
 		Имею хорошее представление об эффективности алгоритмов.<br>
 		GitHub профиль <?= black_link('https://github.com/resivalex</a>') ?>
 	</p>
 	
-	<div class="header">Ведущий Ruby on Rails разработчик</div>
+	<div class="header" itemprop="jobTitle">Ведущий Ruby on Rails разработчик</div>
 	
 	<?php
 		output_place(['month_period' => '2016.12-present',
@@ -154,7 +154,7 @@
 	<div class="row-with-icon">
 		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-send"></span></div>
 		<div class="row-with-icon__info">
-			<div>Русский — Родной</div>
+			<div itemprop="nationality">Русский — Родной</div>
 			<div>Английский — Upper Intermediate</div>
 		</div>
 	</div>
@@ -164,7 +164,7 @@
 	<div class="row-with-icon">
 		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-envelope"></span></div>
 		<div class="row-with-icon__info">
-			<div>resivalex@gmail.com</div>
+			<div itemprop="email">resivalex@gmail.com</div>
 		</div>
 	</div>
 </div>

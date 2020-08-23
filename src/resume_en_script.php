@@ -6,20 +6,20 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 <link href="/wp-content/uploads/static/styles.css" rel="stylesheet">
 
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Person">
 	<div>
 		[<a href="/resume-russian">Переключить на русский</a>]
 	</div>
 	
-	<div class="main-header">Reshetnikov Ivan Aleksandrovich</div>
+	<div class="main-header" itemprop="name">Reshetnikov Ivan Aleksandrovich</div>
 	
-	<p>
+	<p itemprop="description">
 		I like writing beautiful and clear code, am interested in new technologies<br>
 		I have a good idea of the effectiveness and use of algorithms<br>
 		GitHub profile <?= black_link('https://github.com/resivalex') ?>
 	</p>
 	
-	<div class="header">Lead Ruby on Rails developer</div>
+	<div class="header" itemprop="jobTitle">Lead Ruby on Rails developer</div>
 	
 	<?php
 		output_place(['month_period' => '2016.12-present',
@@ -150,7 +150,7 @@
 	<div class="row-with-icon">
 		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-send"></span></div>
 		<div class="row-with-icon__info">
-			<div>Russian — Native</div>
+			<div itemprop="nationality">Russian — Native</div>
 			<div>English — Upper Intermediate</div>
 		</div>
 	</div>
@@ -160,7 +160,7 @@
 	<div class="row-with-icon">
 		<div class="row-with-icon__icon"><span class="symbol-icon glyphicon glyphicon-envelope"></span></div>
 		<div class="row-with-icon__info">
-			<div>resivalex@gmail.com</div>
+			<div itemprop="email">resivalex@gmail.com</div>
 		</div>
 	</div>
 </div>

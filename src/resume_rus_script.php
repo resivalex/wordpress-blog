@@ -22,8 +22,8 @@
 	<div class="header">Ведущий Ruby on Rails разработчик</div>
 	
 	<?php
-		output_place(['duration' => '3 года 9 месяцев',
-			'period' => 'Декабрь 2016 - по настоящее время',
+		output_place(['month_period' => '2016.12-present',
+			'locale' => 'ru',
 			'name' => 'OneRetarget.com',
 			'link' => 'https://oneretarget.com',
 			'description' => 'Сервис для управления рекламой из одного кабинета']);
@@ -56,16 +56,16 @@
 	<div class="header">Ruby on Rails разработчик</div>
 	
 	<?php
-		output_place(['duration' => '8 месяцев',
-			'period' => 'Апрель 2016 - Октябрь 2016',
+		output_place(['month_period' => '2016.04-2016.11',
+			'locale' => 'ru',
 			'name' => 'Lakehouse',
 			'link' => 'http://www.lakehouse.ru']);
 	?>
 	
 	<div class="sub-header">Задачи</div>
 	<p>
-		— Поддержка и разработка сайта для оперативного управления обслуживающими процессами в крупных зданиях, сдающих помещения в аренду http://o-din.ru/<br>
-		— Поддержка и разработка CRM для повышения квалификации стилистов http://e-academie.ru/
+		— Поддержка и разработка сайта для оперативного управления обслуживающими процессами в крупных зданиях, сдающих помещения в аренду <?= black_link('http://o-din.ru/') ?><br>
+		— Поддержка и разработка CRM для повышения квалификации стилистов <?= black_link('http://e-academie.ru/') ?>
 	</p>
 	<div class="sub-header">Технологии</div>
 	<?php
@@ -75,14 +75,13 @@
 	<div class="header">Самообразование</div>
 	
 	<?php
-		output_place(['duration' => '3 месяца',
-			'period' => 'Февраль 2016 - Апрель 2016']);
+    output_place(['month_period' => '2016.02-2016.04', 'locale' => 'ru']);
 	?>
 	
 	<div class="sub-header">Задачи</div>
 	<p>
-		— Переписывание дипломного проекта https://github.com/resivalex/student-progress-on-rails<br>
-		— Разработка веб-сайта для батутного центра https://github.com/resivalex/zaskok
+		— Переписывание дипломного проекта <?= black_link('https://github.com/resivalex/student-progress-on-rails') ?><br>
+		— Разработка веб-сайта для батутного центра <?= black_link('https://github.com/resivalex/zaskok') ?>
 	</p>
 	<div class="sub-header">Технологии</div>
 	<?php
@@ -92,8 +91,8 @@
 	<div class="header">Разработчик ПО</div>
 	
 	<?php
-		output_place(['duration' => '10 месяцев',
-			'period' => 'Апрель 2015 - Январь 2016',
+		output_place(['month_period' => '2015.04-2016.01',
+			'locale' => 'ru',
 			'name' => 'Nasca Ltd.',
 			'link' => 'http://piratetrade.ru',
 			'description' => 'Торговля на бирже']);
@@ -101,7 +100,7 @@
 	
 	<div class="sub-header">Задачи</div>
 	<p>
-		— Разработка веб-сайта http://pskovskie.ru/ с нуля<br>
+		— Разработка веб-сайта <?= black_link('http://pskovskie.ru/') ?> с нуля<br>
 		— Разработка многокомпонентного сетевого приложения в команде из пяти разработчиков по методологии Scrum<br>
 		— Полная реализация важного компонента, взаимодействующего непосредственно с биржей<br>
 		— Юнит-тестирование с использованием Catch фреймворка<br>
@@ -117,8 +116,8 @@
 	<div class="header">C++/Qt разработчик</div>
 	
 	<?php
-		output_place(['duration' => '10 месяцев',
-			'period' => 'Декабрь 2012 - Сентябрь 2013',
+		output_place(['month_period' => '2012.12-2013.09',
+			'locale' => 'ru',
 			'name' => 'Nasca Ltd.',
 			'link' => 'http://piratetrade.ru',
 			'description' => 'Торговля на бирже']);

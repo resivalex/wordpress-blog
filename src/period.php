@@ -71,8 +71,8 @@
       7 => 'july',
       8 => 'august',
       9 => 'september',
-      10 => 'november',
-      11 => 'october',
+      10 => 'october',
+      11 => 'november',
       12 => 'december',
     ];
 
@@ -86,8 +86,8 @@
       'july' => 'July',
       'august' => 'August',
       'september' => 'September',
-      'november' => 'November',
       'october' => 'October',
+      'november' => 'November',
       'december' => 'December',
     ];
 
@@ -101,8 +101,8 @@
       'july' => 'Июль',
       'august' => 'Август',
       'september' => 'Сентябрь',
-      'november' => 'Ноябрь',
       'october' => 'Октябрь',
+      'november' => 'Ноябрь',
       'december' => 'Декабрь',
     ];
 
@@ -123,12 +123,12 @@
 
     function to_russian_string()
     {
-      return $this->year.' '.$this::RUS_MONTHS[$this::MONTH_CODES[$this->month]];
+      return $this::RUS_MONTHS[$this::MONTH_CODES[$this->month]].' '.$this->year;
     }
 
     function to_english_string()
     {
-      return $this->year.' '.$this::EN_MONTHS[$this::MONTH_CODES[$this->month]];
+      return $this::EN_MONTHS[$this::MONTH_CODES[$this->month]].' '.$this->year;
     }
   }
   

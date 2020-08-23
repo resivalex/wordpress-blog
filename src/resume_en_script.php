@@ -1,7 +1,6 @@
 <?php
   require_once 'functions.php';
   require_once 'tags.php';
-  require_once 'period.php';
 ?>
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -23,8 +22,7 @@
 	<div class="header">Lead Ruby on Rails developer</div>
 	
 	<?php
-		output_place(['duration' => '3 years 9 months',
-			'period' => 'December 2016 - Present',
+		output_place(['month_period' => '2016.12-present',
 			'name' => 'OneRetarget.com',
 			'link' => 'https://oneretarget.com',
 			'description' => 'A service to manage several ad platforms at one account']);
@@ -57,8 +55,7 @@
 	<div class="header">Ruby on Rails developer</div>
 	
 	<?php
-		output_place(['duration' => '8 months',
-			'period' => 'April 2016 - October 2016',
+		output_place(['month_period' => '2016.04-2016.11',
 			'name' => 'Lakehouse',
 			'link' => 'http://www.lakehouse.ru']);
 	?>
@@ -76,8 +73,7 @@
 	<div class="header">Самообразование</div>
 	
 	<?php
-		output_place(['duration' => '3 months',
-			'period' => 'February 2016 - April 2016']);
+		output_place(['month_period' => '2016.02-2016.04']);
 	?>
 	
 	<div class="sub-header">Tasks</div>
@@ -93,8 +89,7 @@
 	<div class="header">Software developer</div>
 	
 	<?php
-		output_place(['duration' => '10 months',
-			'period' => 'April 2015 - January 2016',
+		output_place(['month_period' => '2015.04-2016.01',
 			'name' => 'Nasca Ltd.',
 			'link' => 'http://piratetrade.ru',
 			'description' => 'Exchange trading company']);
@@ -102,7 +97,7 @@
 	
 	<div class="sub-header">Tasks</div>
 	<p>
-		— Website development <?= black_link('http://pskovskie.ru/ from scratch') ?><br>
+		— Website development <?= black_link('http://pskovskie.ru/') ?> from scratch<br>
 		— Development of a multi-component network application in a team of five members using the Scrum methodology<br>
 		— Full implementation of an important component interacting with the exchange<br>
 		— Unit-testing with Catch framework<br>
@@ -118,8 +113,7 @@
 	<div class="header">C++/Qt developer</div>
 	
 	<?php
-		output_place(['duration' => '10 months',
-			'period' => 'December 2012 - September 2013',
+		output_place(['month_period' => '2012.12-2013.09',
 			'name' => 'Nasca Ltd.',
 			'link' => 'http://piratetrade.ru',
 			'description' => 'Exchange trading company']);

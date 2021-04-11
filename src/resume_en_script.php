@@ -14,15 +14,42 @@
 	<div class="main-header" itemprop="name">Reshetnikov Ivan Aleksandrovich</div>
 	
 	<p itemprop="description">
-		I like writing beautiful and clear code, am interested in new technologies<br>
-		I have a good idea of the effectiveness and use of algorithms<br>
+		I like writing beautiful and clean code, am interested in new technologies<br>
+		I have a good sense of algorithm effectiveness<br>
 		GitHub profile <?= black_link('https://github.com/resivalex') ?>
 	</p>
-	
+
+	<div class="header" itemprop="jobTitle">Machine Learning Engineer</div>
+
+  <?php
+		output_place(['month_period' => '2020.11-present',
+			'locale' => 'en',
+			'name' => 'Sape',
+			'link' => 'https://sape.ru',
+			'description' => 'Backlinks purchase service']);
+  ?>
+
+	<div class="sub-header">Tasks</div>
+	<p>
+		— Price recommendation model development<br>
+		— Searching for significant features, which cause product dissatisfaction<br>
+		— Helping SEO-specialists to construct promotion strategies
+	</p>
+
+	<div class="sub-header">Achievements</div>
+	<p>
+		— Development of price recommendation model from data analysis to preparing for deploy
+	</p>
+
+	<div class="sub-header">Technologies</div>
+  <?php
+  	output_tags(sape_tags());
+  ?>
+
 	<div class="header" itemprop="jobTitle">Lead Ruby on Rails developer</div>
 	
 	<?php
-		output_place(['month_period' => '2016.12-present',
+		output_place(['month_period' => '2016.12-2020.11',
 			'name' => 'OneRetarget.com',
 			'link' => 'https://oneretarget.com',
 			'description' => 'A service to manage several ad platforms at one account']);

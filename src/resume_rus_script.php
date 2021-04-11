@@ -18,11 +18,38 @@
 		Имею хорошее представление об эффективности алгоритмов.<br>
 		GitHub профиль <?= black_link('https://github.com/resivalex</a>') ?>
 	</p>
+
+	<div class="header" itemprop="jobTitle">Machine Learning инженер</div>
+
+  <?php
+  output_place(['month_period' => '2020.11-present',
+    'locale' => 'ru',
+    'name' => 'Sape',
+    'link' => 'https://sape.ru',
+    'description' => 'Инструменты для рекламы и заработка в интернете']);
+  ?>
+
+	<div class="sub-header">Задачи</div>
+	<p>
+		— Разработка модели рекомендации цен на основе исторических данных<br>
+		— Поиск значимых факторов, влияющих на отказ пользователей от услуги<br>
+		— Помощь SEO-специалистам в выборе стратегии продвижения
+	</p>
+
+	<div class="sub-header">Достижения</div>
+	<p>
+		— Разработка модели рекомендации цен от анализа данных до подготовки к деплою
+	</p>
+
+	<div class="sub-header">Технологии</div>
+  <?php
+  	output_tags(sape_tags());
+  ?>
 	
 	<div class="header" itemprop="jobTitle">Ведущий Ruby on Rails разработчик</div>
 	
 	<?php
-		output_place(['month_period' => '2016.12-present',
+		output_place(['month_period' => '2016.12-2020.11',
 			'locale' => 'ru',
 			'name' => 'OneRetarget.com',
 			'link' => 'https://oneretarget.com',

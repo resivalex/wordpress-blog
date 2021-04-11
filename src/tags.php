@@ -1,5 +1,10 @@
 <?php
-  
+
+  function sape_tags()
+  {
+    return ['Python', 'Pandas', 'MatPlotLib', 'NumPy', 'SciKit-Learn', 'Gensim', 'Jupyter', 'Flask', 'PyTest'];
+  }
+
   function oneretarget_tags()
   {
     return ['Ruby on Rails 5', 'PostgreSQL', 'RSpec', 'Cucumber', 'Capybara', 'Jenkins', 'Docker', 'Capistrano',

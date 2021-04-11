@@ -33,7 +33,7 @@
 	<p>
 		— Price recommendation model development<br>
 		— Searching for significant features, which cause product dissatisfaction<br>
-		— Helping SEO-specialists to construct promotion strategies
+		— Helping SEO-specialists to construct effective promotion strategies
 	</p>
 
 	<div class="sub-header">Achievements</div>
